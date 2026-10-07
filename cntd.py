@@ -5,7 +5,7 @@ cntd-downloader: скачать документ с docs.cntd.ru как оффл
   python3 cntd.py <URL> [--out FILE] [--embed-images] [--delay SECS]
                          [--no-styles] [--fonts] [--key KEY]
 
-Полная версия доступна only 20:00-22:00 МСК.
+Полная версия доступна only 20:00-24:00 МСК.
 """
 
 import sys, re, time, base64, json
