@@ -11,7 +11,7 @@ description: "Скачивание документов с docs.cntd.ru как �
 
 ## Важно: временные ограничения API
 
-Полная версия документа доступна только **с 20:00 до 22:00** по Москве.
+Полная версия документа доступна только **с 20:00 до 24:00** по Москве.
 В остальное время доступны только первые блоки. Если нужно скачать полностью —
 запускайте в это окно.
 
@@ -88,7 +88,7 @@ python3 /home/human/.agents/skills/cntd-downloader/cntd.py \
    // Конфиг доступен в window.__NUXT__.config или в HTML-источнике
    document.body.innerHTML.match(/DOCS_API_KEY:"([^"]+)"/)[1]
    ```
-3. Или в Sources找到 `config:` блок — там `DOCS_API_KEY`, `CAS_SSO`, `HOTDOCS_API_KEY`, `FORM_KEY`
+3. Или в Sources найдите `config:` блок — там `DOCS_API_KEY`, `CAS_SSO`, `HOTDOCS_API_KEY`, `FORM_KEY`
 
 ### Что за ключи в конфиге
 
