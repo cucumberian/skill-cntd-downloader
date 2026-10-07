@@ -166,7 +166,7 @@ def main():
 
     blocks = fetch_all_blocks(did, delay)
     if not blocks:
-        sys.exit("❌ Нет блоков. Полная версия: 20:00-22:00 МСК.")
+        sys.exit("❌ Нет блоков. Полная версия: 20:00-24:00 МСК.")
 
     combined = "\n".join(blocks)
     if embed:
